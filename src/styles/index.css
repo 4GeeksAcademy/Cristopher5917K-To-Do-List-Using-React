@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    
+    
+    background-color: rgb(206, 206, 206);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: white;   
+   
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(109, 108, 108);
+    display: flex;
+    justify-content: center;
+}
+
+.textColor{
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(166, 166, 166);
+}
+.select{
+    cursor: pointer;
+}
+.silhouette{
+    box-shadow: -1px 16px 5px 0px rgba(180,174,174,0.75);
+}

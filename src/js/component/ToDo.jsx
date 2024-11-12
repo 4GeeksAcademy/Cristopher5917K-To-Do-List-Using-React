@@ -17,6 +17,7 @@ const ToDo = () => {
             ...task,
             [target.name]: target.value
         })
+        
     }
         const getAllTask = async () => {
             try {
@@ -32,6 +33,7 @@ const ToDo = () => {
             } catch (error) {
                 console.log(error)
             }
+            
         }
 
         const createUser = async()=>{
@@ -64,6 +66,7 @@ const ToDo = () => {
                     console.log(error)
                 }
             }
+            
         }
                 
 
@@ -113,7 +116,7 @@ const ToDo = () => {
                                 taskList.map((item) => {
                                     return(
                                     <div className="select p-4 textColor border" onClick={()=>deleteTask(item.id)} key={item.id}>
-                                        {item.label}                                                                   
+                                        {item.label}<span className="icon-delete">x</span>                                                                   
                                     </div>
                                     
                                     )
